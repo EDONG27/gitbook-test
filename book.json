@@ -1,0 +1,34 @@
+{
+    "title": "gitbook学习过程",
+    "description": "gitbook学习过程",
+    "author": "EDONG",
+    "language": "zh-hans",
+    "root": ".",
+    "plugins": 
+    [
+        "donate",
+        "edit-link-plus",
+        "copyright"
+    ],
+    "pluginsConfig": {
+        "donate": {
+          "wechat": "例：/images/qr.png",
+          "alipay": "http://blog.willin.wang/static/images/qr.png",
+          "title": "",
+          "button": "打赏",
+          "alipayText": "打赏：支付宝捐赠",
+          "wechatText": "打赏：微信捐赠"
+        },
+        "edit-link-plus": {
+            "base": "https://github.com/USER/REPO/edit/BRANCH/path/to/book"
+        },
+        "copyright": {
+            "site": "https://snowdreams1006.github.io/gitbook-plugin-copyright",
+            "author": "EDONG",
+            "website": "EDONG",
+            "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png",
+            "copyProtect": false
+        }
+        
+    }
+}
